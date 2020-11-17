@@ -1,19 +1,19 @@
 #-------------------------------
 # General Site Settings
-title: Hally
+title: '뭐 이런 걸 다'
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hally is a modern and minimal Jekyll theme for sharing your ideas.
+description: 별 걸 다 하는 마케터
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+url: "https://nice-nana.com" # the base hostname & protocol for your site, e.g. http://example.com
+locale: "ko_KR"
 
 #-------------------------------
 # Author Settings
 author:
-  name: Howard Burns
+  name: nice nana
   image: '/images/01.jpg'
   avatar: '/images/01.jpg'
-  description: My name is Howard Burns. I'm a freelance photographer based in Denver. I like being free and enjoying every moment.
+  description: 꾸준히 성장하고 싶은 마케터 nana 입니다. 모든 도전하는 마케터들과 함께 성장하고 싶습니다.
 
 
 #-------------------------------
@@ -29,7 +29,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: nice-nana # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
