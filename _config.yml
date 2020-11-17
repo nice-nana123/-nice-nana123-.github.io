@@ -6,7 +6,7 @@ description: 별 걸 다 하는 마케터
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nice-nana.com" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "ko_KR"
-thumbnail: 'images/thumb.jpg'
+thumbnail: '/images/thumb.jpg'
 
 #-------------------------------
 # Author Settings
