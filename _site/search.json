@@ -1,102 +1,66 @@
 [
   
     {
-      "title"    : "That which does not kill us makes us stronger",
+      "title"    : "검색광고 특징과 종류 알아보기",
       "category" : "",
-      "tags"     : "Fashion and Work",
-      "url"      : "/that-which-does-not-kill-us-makes-us-stronger/",
-      "date"     : "Nov 13, 2018",
-      "image"    : "/images/02.jpg"
+      "tags"     : "디지털광고, 검색광고, 서치엔진마케팅, and sem",
+      "url"      : "/sem_basic/",
+      "date"     : "Nov 4, 2020",
+      "image"    : "/images/posts/07/head.png"
     } ,
   
     {
-      "title"    : "Do what you can, with what you have, where you are",
+      "title"    : "회사에서 질문하는 법",
       "category" : "",
-      "tags"     : "Travels",
-      "url"      : "/do-what-you-can-with-what-you-have-where-you-are/",
-      "date"     : "Nov 12, 2018",
-      "image"    : "/images/03.jpg"
+      "tags"     : "사회생활, 질문, 직장선배, and 회사생활",
+      "url"      : "/question/",
+      "date"     : "Oct 10, 2020",
+      "image"    : "/images/posts/06/head.png"
     } ,
   
     {
-      "title"    : "If you cannot do great things, do small things in a great way",
+      "title"    : "엑셀 숫자인식 오류 해결법 4가지",
       "category" : "",
-      "tags"     : "Life and Rest",
-      "url"      : "/If-you-cannot-do-great-things-do-small-things-in-a-great-way/",
-      "date"     : "Nov 11, 2018",
-      "image"    : "/images/04.jpg"
+      "tags"     : "칼퇴, 엑셀, OA스킬, and 엑셀숫자",
+      "url"      : "/excel_num_error/",
+      "date"     : "Oct 5, 2020",
+      "image"    : "/images/posts/05/head.png"
     } ,
   
     {
-      "title"    : "Strive not to be a success, but rather to be of value",
+      "title"    : "칼퇴는 엑셀로 부터",
       "category" : "",
-      "tags"     : "Work",
-      "url"      : "/Strive-not-to-be-a-success-but-rather-to-be-of-value/",
-      "date"     : "Nov 10, 2018",
-      "image"    : "/images/05.jpg"
+      "tags"     : "칼퇴, 엑셀, OA스킬, and AE",
+      "url"      : "/why_excel/",
+      "date"     : "Sep 27, 2020",
+      "image"    : "/images/posts/04/excel_head.png"
     } ,
   
     {
-      "title"    : "What you do speaks so loudly that I cannot hear what you say",
+      "title"    : "디지털마케터 취업을 위한 기초 지식",
       "category" : "",
-      "tags"     : "Travels and Lifestyle",
-      "url"      : "/What-you-do-speaks-so-loudly-that-I-cannot-hear-what-you-say/",
-      "date"     : "Nov 7, 2018",
-      "image"    : "/images/08.jpg"
+      "tags"     : "디지털마케팅, 온라인마케팅, 마케팅기초, and 퍼포먼스마케팅",
+      "url"      : "/digitalad_start/",
+      "date"     : "Sep 23, 2020",
+      "image"    : "/images/posts/03/head_img.png"
     } ,
   
     {
-      "title"    : "You must be the change you wish to see in the world",
+      "title"    : "사회생활 첫걸음 - 회사에서 메일 쓰는 법.",
       "category" : "",
-      "tags"     : "Travels",
-      "url"      : "/You-must-be-the-change-you-wish-to-see-in-the-world/",
-      "date"     : "Nov 6, 2018",
-      "image"    : "/images/16.jpg"
+      "tags"     : "사회생활, 회사메일, 업무이메일, and 업무용메일",
+      "url"      : "/biz_mail/",
+      "date"     : "Sep 5, 2020",
+      "image"    : "/images/posts/02/email-head.jpg"
     } ,
   
     {
-      "title"    : "Believe and act as if it were impossible to fail",
+      "title"    : "냉혹한 세계에서 디지털 마케터로 살아남기.",
       "category" : "",
-      "tags"     : "Work",
-      "url"      : "/Believe-and-act-as-if-it-were-impossible-to-fail/",
-      "date"     : "Nov 5, 2018",
-      "image"    : "/images/10.jpg"
-    } ,
-  
-    {
-      "title"    : "The way I see it, every life is a pile of good things",
-      "category" : "",
-      "tags"     : "Life and Rest",
-      "url"      : "/the-way-i-see-it-every-life-is-a-pile-of-good-things/",
-      "date"     : "Oct 31, 2018",
-      "image"    : "/images/19.jpg"
-    } ,
-  
-    {
-      "title"    : "Everything has beauty, but not everyone can see",
-      "category" : "",
-      "tags"     : "Fashion and Lifestyles",
-      "url"      : "/Everything-has-beauty-but-not-everyone-can-see/",
-      "date"     : "May 30, 2018",
-      "image"    : "/images/18.jpg"
-    } ,
-  
-    {
-      "title"    : "Remember that happiness is a way of travel, not a destination",
-      "category" : "",
-      "tags"     : "Life and Travels",
-      "url"      : "/Remember-that-happiness-is-a-way-of-travel-not-a-destination/",
-      "date"     : "Apr 24, 2018",
-      "image"    : "/images/15.jpg"
-    } ,
-  
-    {
-      "title"    : "It is never too late to be what you might have been",
-      "category" : "",
-      "tags"     : "Lifestyle and Rest",
-      "url"      : "/It-i-never-too-late-to-be-what-you-might-have-been/",
-      "date"     : "Apr 21, 2018",
-      "image"    : "/images/22.jpg"
+      "tags"     : "디지털마케팅, 온라인마케팅, 마케팅기초, and 퍼포먼스마케팅",
+      "url"      : "/introduction/",
+      "date"     : "Sep 5, 2020",
+      "image"    : "/images/posts/01/intro_head_1280x720.png"
     } 
   
 ]
