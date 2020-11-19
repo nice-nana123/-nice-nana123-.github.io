@@ -5,12 +5,12 @@ layout: default
   <div class="row">
     <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
       <div class="post-head">
-        {% if page.tags.size >= 1 %}
+        <!-- {% if page.tags.size >= 1 %}
           <div class="post-tags">
             {% for tag in page.tags %}
               <a href="{{ site.baseurl }}/tag/{{ tag }}" class="post-tags__tag">{{ tag }}</a>
             {% endfor %}
-          </div>
+          </div> -->
         {% endif %}
         <h1 class="post-title">{{ page.title | escape }}</h1>
         <div class="post__meta">
