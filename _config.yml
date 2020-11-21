@@ -28,6 +28,7 @@ contact:
 - {name: "Dribbble", icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 
 
+
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: nice-nana # add your shortname for Disqus Comment. For example mr-brown
@@ -35,7 +36,7 @@ disqus-identifier: nice-nana # add your shortname for Disqus Comment. For exampl
 
 #-------------------------------
 # Newsletter
-mailchimp: true # To enable the mailchimp form, use the value true. To turn off use the value false.
+mailchimp: false # To enable the mailchimp form, use the value true. To turn off use the value false.
 mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 mailchimp-description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
 

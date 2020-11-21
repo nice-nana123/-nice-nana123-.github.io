@@ -1,40 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://localhost:4000/introduction/</loc>
-<lastmod>2020-09-05T11:06:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/biz_mail/</loc>
-<lastmod>2020-09-05T14:59:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/digitalad_start/</loc>
-<lastmod>2020-09-23T16:50:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/why_excel/</loc>
-<lastmod>2020-09-27T00:14:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/excel_num_error/</loc>
-<lastmod>2020-10-05T12:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/question/</loc>
-<lastmod>2020-10-10T22:58:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/sem_basic/</loc>
-<lastmod>2020-11-04T11:00:00+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/about/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/styleguide/</loc>
-</url>
+  
+    <url>
+      <loc>http://localhost:4000/sem_basic/</loc>
+      
+        <lastmod>2020-11-04T11:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/question/</loc>
+      
+        <lastmod>2020-10-10T22:58:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/excel_num_error/</loc>
+      
+        <lastmod>2020-10-05T12:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/why_excel/</loc>
+      
+        <lastmod>2020-09-27T00:14:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/digitalad_start/</loc>
+      
+        <lastmod>2020-09-23T16:50:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/biz_mail/</loc>
+      
+        <lastmod>2020-09-05T14:59:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/introduction/</loc>
+      
+        <lastmod>2020-09-05T11:06:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
 </urlset>

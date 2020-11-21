@@ -1,0 +1,35 @@
+---
+layout: default
+title: 사회생활 기초
+permalink: /social_basic/
+background: '/image/bg-post.jpg'
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 push-d-1">
+      <div class="archive-box">
+        <h1 class=page-head__title>사회생활 기초</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+      <div class="container__inner">
+        <div class="contaniner__inner-box">
+          <div class="row grid">
+              {% for post in site.categories.social_basic %}
+                {% include article-content.html %}
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% include pagination.html %}

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nice-nana.com/sitemap.xml
+
+DaumWebMasterTool:ca1f1740a895edee13b04124696eb7f2ae7a6a33a7ec5a6ea6cf19dea9611971:SkzY+iibjkK3lYUDIfzDEw==

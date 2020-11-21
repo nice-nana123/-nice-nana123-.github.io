@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Style Guide
 permalink: /styleguide/
@@ -113,4 +113,4 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
 ![View from above]({{site.baseurl}}/images/17.jpg)
 *View from above*
 
-***
+*** -->

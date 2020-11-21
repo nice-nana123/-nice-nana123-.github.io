@@ -5,6 +5,11 @@
 
 <body class="{% if page.url == '/' %}{% assign class = 'home' %}{{ class }}{% endif %}">
 
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMFP3P8"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   {% if site.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}

@@ -18,7 +18,8 @@ layout: default
             <a href="{{site.baseurl}}/about/" class="article__author-image" style="background-image: url({{site.baseurl}}{{site.author.avatar}})" aria-label="{{site.author.name}}'s Picture"></a> <a href="{{site.baseurl}}/about/" class="article__author-link">{{site.author.name}}</a>
           </div>
           <span class="article__date"><time
-            datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ page.date | date: date_format }}</time></span>
+            datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ page.date | date: date_format }} &middot; {% include read_time.html
+            content=page.content %}</time></span>
         </div>
       </div>
     </div>

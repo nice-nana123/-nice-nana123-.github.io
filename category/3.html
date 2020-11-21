@@ -1,0 +1,35 @@
+---
+layout: default
+title: 칼퇴스킬
+permalink: /go_home/
+background: '/image/bg-post.jpg'
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 push-d-1">
+      <div class="archive-box">
+        <h1 class=page-head__title>칼퇴스킬</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 push-d-1 col-m-12 push-m-0">
+      <div class="container__inner">
+        <div class="contaniner__inner-box">
+          <div class="row grid">
+              {% for post in site.categories.go_home %}
+                {% include article-content.html %}
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% include pagination.html %}
