@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "당신의 마음을 읽는 DA 광고",
+      "category" : "",
+      "tags"     : "디지털광고, 배너광고, displayad, and da",
+      "url"      : "/da_basic/",
+      "date"     : "Nov 22, 2020",
+      "image"    : "/images/posts/08/head.jpg"
+    } ,
+  
+    {
       "title"    : "검색광고 특징과 종류 알아보기",
       "category" : "",
       "tags"     : "디지털광고, 검색광고, 서치엔진마케팅, and sem",
@@ -50,7 +59,7 @@
       "category" : "",
       "tags"     : "사회생활, 회사메일, 업무이메일, and 업무용메일",
       "url"      : "/biz_mail/",
-      "date"     : "Sep 5, 2020",
+      "date"     : "Sep 6, 2020",
       "image"    : "/images/posts/02/email-head.jpg"
     } ,
   

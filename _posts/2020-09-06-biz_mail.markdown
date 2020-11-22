@@ -2,12 +2,17 @@
 layout: post
 permalink: /biz_mail/
 title: '사회생활 첫걸음 - 회사에서 메일 쓰는 법.'
-date: 2020-09-05 14:59:00 +09:00
+date: 2020-09-06 14:59:00 +09:00
 feature: '/images/posts/02/email-thumb.jpg'
 image: '/images/posts/02/email-head.jpg'
 categories:
   - social_basic
-tags: [사회생활, 회사메일, 업무이메일, 업무용메일]
+tags:
+- 사회생활
+- 회사메일
+- 업무이메일
+- 업무용메일
+
 description: '예의로 시작해서 예의로 마무리하는 업무용 메일.'
 ---
 
