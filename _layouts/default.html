@@ -26,14 +26,16 @@
 
   {% include footer.html %}
 
-  {% if post.html %}
   <script>
+
+  if ('{{content}}'=='post.html'){
   dataLayer({
     'event': 'contentView',
-    'name':{{page.title}}
+    'name':'{{page.title}}'
   });
+  }
   </script>
-  {endif}
+
 
   {% include javascripts.html %}
 </body>
