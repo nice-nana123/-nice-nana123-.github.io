@@ -26,6 +26,15 @@
 
   {% include footer.html %}
 
+  {% if post.html %}
+  <script>
+  dataLayer({
+    'event': 'contentView'
+    'name':{{page.title}}
+  });
+  </script>
+  {endif}
+
   {% include javascripts.html %}
 </body>
 
