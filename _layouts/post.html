@@ -107,8 +107,8 @@ layout: default
 {% include kakao.html %}
 
 <script>
-  dataLayer({
-    'event': 'contentView',
+  dataLayer.push({
+    'event':'contentView',
     'pageTitle':'{{page.title}}'
   });
 </script>
