@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: '뭐 이런 걸 다'
+title: 'NICE-NANA'
 logo: # You can add own logo. For example '/images/logo.png'.
 description: 별 걸 다 하는 마케터
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -14,7 +14,7 @@ author:
   name: nice nana
   image: '/images/01.jpg'
   avatar: '/images/01.jpg'
-  description: 꾸준히 성장하고 싶은 마케터 nana 입니다. 모든 도전하는 마케터들과 함께 성장하고 싶습니다.
+  description: 꾸준히 성장하고 싶은 마케터입니다. 도전하는 마케터들과 함께 성장하고 싶습니다.
 
 
 #-------------------------------
