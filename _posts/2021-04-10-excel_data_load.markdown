@@ -39,7 +39,7 @@ description: 웹에서 CSV로 데이터를 다운로드했는데 한글이 깨�
 
 2.데이터 - 텍스트/CSV 가져오기 클릭
 
-![openfile](/images/posts/11/openfile.png)
+![openfile](/images/posts/11/openfile.jpg)
 
 3.열었을 때 오류가 났던 그 파일을 선택해준다.
 
@@ -76,7 +76,7 @@ description: 웹에서 CSV로 데이터를 다운로드했는데 한글이 깨�
 3.팝업 좌측창에 뜬 데이터 리스트중 가지고 오고 싶은 데이터를 선택하고 [로드]버튼 누르기
 <br><small>*지금은 표 형태의 데이터가 여러개라서, 여러개의 리스트가 뜨고 있습니다.</small>
 
-![complete](/images/posts/11/complete.png)
+![complete](/images/posts/11/complete.jpg)
 
 4.로드 된 데이터를 잘 활용해준다.
 
