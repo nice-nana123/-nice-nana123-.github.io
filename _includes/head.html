@@ -1,13 +1,13 @@
 <head>
 
-    <!-- Google Tag Manager -->
+  <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-PGR5DQ8');</script>
   <!-- End Google Tag Manager -->
-  
+
   <!-- Global site tag (gtag.js) - Google Ads: 782951825 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-782951825"></script>
   <script>
@@ -22,8 +22,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
+  <title>
+		{%if page.title %}
+			{{ page.title }} | {{ site.title }}
+		{% else %}
+			{{ site.title }} | {{ site.tagline }}
+		{% endif %}
+	</title>
 
   <!-- SEO Tag -->
     <meta name="twitter:card" content="summary_large_image" />
@@ -78,7 +83,36 @@
     <!-- End SEO Tag -->
     <meta name="naver-site-verification" content="3a6a9edec645c5c970996c2dd1c3fddda46c4cf6" />
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <!-- Article 구조화된 데이터 Start -->
+  	{% if page.feature %}
+  		<script type="application/ld+json">
+  	    {
+  	      "@context": "https://schema.org",
+  	      "@type": "NewsArticle",
+  	      "headline": "{{ page.title }}",
+  	      "image": [
+  	        "{{ site.github.url }}{{ page.feature }}"
+  	       ],
+  	      "datePublished": "{{ page.date | date_to_xmlschema }}"
+  	    }
+  	  </script>
+  	{% endif %}
+  	<!-- Article 구조화된 데이터 End -->
+
+    <!-- 구조화된 채널 데이터 제출 Start -->
+  	<script type="application/ld+json">
+  		{
+  		 "@context": "http://schema.org",
+  		 "@type": "Person",
+  		 "name": "{{ site.title }}",
+  		 "url": "{{ site.url }}",
+  		 "sameAs": [
+  		   "https://www.facebook.com/profile.php?id=100056702659062"
+  		 ]
+  		}
+  	</script>
+  	<!-- 구조화된 채널 데이터 제출 End -->
+
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
 
   <!-- Fonts -->
