@@ -3,7 +3,7 @@ layout:  post
 permalink: /excel_data_load/
 title: 엑셀에 외계어가 뜰 때?!👽 엑셀 데이터 한글 텍스트 깨질 때 변환하는 법!
 date: 2021-04-10 23:50:00 +09:00
-feature: '/images/posts/11/thumb.png'
+feature: '/images/posts/11/thumb2.png'
 image: '/images/posts/11/head.png'
 categories:
   - go_home
