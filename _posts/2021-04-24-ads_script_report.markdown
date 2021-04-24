@@ -10,19 +10,21 @@ categories:
 tags:
   - 구글애즈스크립트
   - 구글리포트자동화
+  - 구글키워드리포트
   - 구글광고리포트
   - 광고리포트자동화
   - googleadsscripts
   - 구글리포트자동발송
   - googlereportautomation
   - reportautomation
-description: 구글 애즈 스크립트로 리포트 자동 발송! Google Ads Scripts report automation
+description: 구글 애즈 스크립트로 데일리 키워드 리포트 자동 발송! Google Ads Scripts report automation
 ---
 
 ### Ads Script 작성 방법.
 
 Ads Scripts를 이용해서 업무를 자동화 할 수 있는 것 중 가장 간단한 것이 리포트 발송일 것 같은데요,
-그래서 가장 먼저 전일자 실적을 가져오는 리포트를 구글 스프레드시트에 옮기고, 그 시트를 메일로 발송해주는 작업을 해보도록 하겠습니다.
+
+그래서 가장 먼저 전일자 광고 운영 실적을 가져오는 리포트를 구글 스프레드시트에 옮기고, 그 시트를 메일로 자동 발송해주는 작업을 해보도록 하겠습니다.
 
 
 ![ads_script](/images/posts/13/scriptwrite.png)
@@ -69,7 +71,7 @@ Ads Scripts를 이용해서 업무를 자동화 할 수 있는 것 중 가장 �
 <div class="colorscripter-code" style="color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#fafafa;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #e5e5e5"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#666;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#010101;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#a71d5d">if</span>(sheetArray.<span style="color:#066de2">length</span>&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span>&nbsp;<span style="color:#0099cc">0</span>){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#999999">//sheetArray배열에&nbsp;내용이&nbsp;1개&nbsp;이상이면</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;ss.getRange(<span style="color:#0099cc">1</span>,<span style="color:#0099cc">1</span>,sheetArray.<span style="color:#066de2">length</span>,&nbsp;sheetArray[<span style="color:#0099cc">0</span>].<span style="color:#066de2">length</span>).setValues(sheetArray);&nbsp;<span style="color:#999999">//스프레드시트에&nbsp;내용&nbsp;채우기</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;MailApp.sendEmail(<span style="color:#63a35c">'이메일&nbsp;주소'</span>,<span style="color:#63a35c">'메일&nbsp;제목'</span>,&nbsp;<span style="color:#63a35c">'메일내용'</span>&nbsp;<span style="color:#ff3399"></span><span style="color:#a71d5d">+</span>&nbsp;spreadsheetUrl&nbsp;);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#999999">//메일로&nbsp;보내주기</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;}</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div></div><div style="text-align:right;margin-top:-13px;margin-right:5px;font-size:9px;font-style:italic"><a href="http://colorscripter.com/info#e" target="_blank" style="color:#e5e5e5text-decoration:none">Colored by Color Scripter</a></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#e5e5e5;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
 
 <br>
-이렇게 작성 후 스크립트를 실행하게 되면, 메일이 들어오고 메일 내 스프레드 시트 링크를 통해 들어가면 전일자 키워드리포트를 확인할 수 있습니다.
+이렇게 작성 후 스크립트를 실행하게 되면, 메일이 들어오고 메일 내 스프레드 시트 링크를 통해 들어가면 전일자 키워드리포트를 확인 할 수 있습니다.
 
 ![result](/images/posts/13/result.png)
 
@@ -78,8 +80,8 @@ Ads Scripts를 이용해서 업무를 자동화 할 수 있는 것 중 가장 �
 
 ![frequency](/images/posts/13/frequency.png)
 
-이제 스크립트를 저장하고 나와서, 실행 주기를 설정해줍니다. 보통은 전일자 실적을 출근 후에 확인해보기 때문에, 매일 아침 9시에 스크립트가 실행되도록 해두면
-9시마다 데일리 리포트를 자동으로 받아 볼 수 있겠죠?!
+이제 스크립트를 저장하고 나와서, 실행 주기를 설정해줍니다. 보통은 출근하자마자 전일자 광고운영 실적을 확인하고 계실텐데요, 매일 아침 9시에 스크립트가 실행 되도록 해두면
+9시마다 데일리 키워드리포트를 자동으로 받아 볼 수 있겠죠?!
 
 
 
