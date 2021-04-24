@@ -9,6 +9,9 @@ categories:
   - high_skill
 tags:
   - 구글애즈스크립트
+  - 구글리포트자동화
+  - 구글광고리포트
+  - 광고리포트자동화
   - googleadsscripts
   - 구글리포트자동발송
   - googlereportautomation

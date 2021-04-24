@@ -11,6 +11,7 @@ tags:
   - 구글애즈스크립트
   - googleadsscript
   - 구글캠페인최적화
+  - 구글스크립트
   - 구글자동입찰
   - googleappsscript
 description: 구글 캠페인 관리를 손쉽게 자동화 할 수 있는 Google Ads Script를 알아보자!
