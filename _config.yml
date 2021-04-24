@@ -7,7 +7,7 @@ description: 복잡한 세상 편하게 살기 위해 다양한 스킬을 공부
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nice-nana.com" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "ko_KR"
-thumbnail: '/images/thumb.jpg'
+thumbnail: '/images/feature.jpg'
 
 #-------------------------------
 # Author Settings
