@@ -1,7 +1,7 @@
 ---
 layout:  post
-permalink: /ads_script_report/
-title: 구글 애즈 스크립트 Ads Scripts로 리포트 자동발송하기! Report automation.
+permalink: /ads_scripts_report/
+title: 구글 애즈 스크립트 Ads Scripts & 앱스 스크립트 Apps Script로 리포트 자동발송하기! Report automation.
 date: 2021-04-24 15:00:00 +09:00
 feature: '/images/posts/13/thumb.png'
 image: '/images/posts/13/head.png'
@@ -9,10 +9,14 @@ categories:
   - high_skill
 tags:
   - 구글애즈스크립트
+  - 구글앱스스크립트
   - 구글리포트자동화
   - 구글키워드리포트
   - 구글광고리포트
   - 광고리포트자동화
+  - googleadsreport
+  - googleappsscript
+  - adsscripts
   - googleadsscripts
   - 구글리포트자동발송
   - googlereportautomation
@@ -22,7 +26,7 @@ description: 구글 애즈 스크립트로 데일리 키워드 리포트 자동 
 
 ### Ads Script 작성 방법.
 
-Ads Scripts를 이용해서 업무를 자동화 할 수 있는 것 중 가장 간단한 것이 리포트 발송일 것 같은데요,
+Google Ads Scripts/ Google Apps scripts를 이용해서 업무를 자동화 할 수 있는 것 중 가장 간단한 것이 리포트 발송일 것 같은데요,
 
 그래서 가장 먼저 전일자 광고 운영 실적을 가져오는 리포트를 구글 스프레드시트에 옮기고, 그 시트를 메일로 자동 발송해주는 작업을 해보도록 하겠습니다.
 

@@ -1,6 +1,6 @@
 ---
 layout:  post
-permalink: /ads_script/
+permalink: /ads_scripts/
 title: 구글 애즈 스크립트 Ads Script 알아보기!
 date: 2021-04-21 20:00:00 +09:00
 feature: '/images/posts/12/thumb.png'
@@ -9,7 +9,9 @@ categories:
   - high_skill
 tags:
   - 구글애즈스크립트
-  - googleadsscript
+  - googleadsscripts
+  - 구글앱스스크립트
+  - adsscripts
   - 구글캠페인최적화
   - 구글스크립트
   - 구글자동입찰
