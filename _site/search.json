@@ -1,10 +1,10 @@
 [
   
     {
-      "title"    : "구글 애즈 스크립트 Ads Scripts로 리포트 자동발송하기! Report automation.",
+      "title"    : "구글 애즈 스크립트 Ads Scripts &amp; 앱스 스크립트 Apps Script로 리포트 자동발송하기! Report automation.",
       "category" : "",
-      "tags"     : "구글애즈스크립트, googleadsscripts, 구글리포트자동발송, googlereportautomation, and reportautomation",
-      "url"      : "/ads_script_report/",
+      "tags"     : "구글애즈스크립트, 구글앱스스크립트, 구글리포트자동화, 구글키워드리포트, 구글광고리포트, 광고리포트자동화, googleadsreport, googleappsscript, adsscripts, googleadsscripts, 구글리포트자동발송, googlereportautomation, and reportautomation",
+      "url"      : "/ads_scripts_report/",
       "date"     : "Apr 24, 2021",
       "image"    : "/images/posts/13/head.png"
     } ,
@@ -12,8 +12,8 @@
     {
       "title"    : "구글 애즈 스크립트 Ads Script 알아보기!",
       "category" : "",
-      "tags"     : "구글애즈스크립트, googleadsscript, 구글캠페인최적화, 구글자동입찰, and googleappsscript",
-      "url"      : "/ads_script/",
+      "tags"     : "구글애즈스크립트, googleadsscripts, 구글앱스스크립트, adsscripts, 구글캠페인최적화, 구글스크립트, 구글자동입찰, and googleappsscript",
+      "url"      : "/ads_scripts/",
       "date"     : "Apr 21, 2021",
       "image"    : "/images/posts/12/head.png"
     } ,
