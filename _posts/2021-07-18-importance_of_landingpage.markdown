@@ -1,7 +1,7 @@
 ---
 layout:  post
 permalink: /importance_of_langingpage/
-title: 검색광고 관리 시리즈 : 1) 랜딩페이지.
+title: 검색광고 관리 시리즈 1) 랜딩페이지.
 date: 2021-07-18 00:00:00 +09:00
 feature: '/images/posts/14/thumb.png'
 image: '/images/posts/14/head.png'
