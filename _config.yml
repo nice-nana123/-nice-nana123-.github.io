@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: 'NICE-NANA'
-logo: '/images/logo.png'
+logo: # You can add own logo. For example '/images/logo.png'.
 tagline: 복세편살 마케터
 description: 복잡한 세상 편하게 살기 위해 다양한 스킬을 공부하는 디지털마케터.
 baseurl: "" # the subpath of your site, e.g. /blog
