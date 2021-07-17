@@ -6,7 +6,7 @@ date: 2021-07-18 00:00:00 +09:00
 feature: '/images/posts/14/thumb.png'
 image: '/images/posts/14/head.png'
 categories:
-  - dig-ma-basic
+  - digit_ad_basic
 tags:
   - 검색광고
   - 검색광고관리
