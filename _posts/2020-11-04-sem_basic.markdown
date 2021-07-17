@@ -3,7 +3,7 @@ layout: post
 permalink: /sem_basic/
 title: '검색광고 특징과 종류 알아보기'
 date: 2020-11-04 11:00:00 +09:00
-feature: '/images/posts/07/thumb.jpg'
+feature: '/images/posts/07/thumb.png'
 image: '/images/posts/07/head.png'
 categories:
   - digit_ad_basic
