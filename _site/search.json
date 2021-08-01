@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "엑셀 피벗테이블은 무엇이고, 어떨 때 쓰는 기능일까?",
+      "category" : "",
+      "tags"     : "엑셀, 엑셀기초, 피벗테이블, and 피벗테이블수식",
+      "url"      : "/excel_pivot_table/",
+      "date"     : "Aug 1, 2021",
+      "image"    : "/images/posts/15/head.png"
+    } ,
+  
+    {
+      "title"    : "검색광고 관리 시리즈 1) 랜딩페이지.",
+      "category" : "",
+      "tags"     : "검색광고, 검색광고관리, 이탈률, bouncerate, and 랜딩페이지",
+      "url"      : "/importance_of_langingpage/",
+      "date"     : "Jul 18, 2021",
+      "image"    : "/images/posts/14/head.png"
+    } ,
+  
+    {
       "title"    : "구글 애즈 스크립트 Ads Scripts &amp; 앱스 스크립트 Apps Script로 리포트 자동발송하기! Report automation.",
       "category" : "",
       "tags"     : "구글애즈스크립트, 구글앱스스크립트, 구글리포트자동화, 구글키워드리포트, 구글광고리포트, 광고리포트자동화, googleadsreport, googleappsscript, adsscripts, googleadsscripts, 구글리포트자동발송, googlereportautomation, and reportautomation",
