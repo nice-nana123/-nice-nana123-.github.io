@@ -1,6 +1,15 @@
 [
   
     {
+      "title"    : "전환기여모델 알아보기 with Google Analytics",
+      "category" : "",
+      "tags"     : "전환기여모델, Google analytics, attribution model, and GA",
+      "url"      : "/attribution_model/",
+      "date"     : "Oct 30, 2021",
+      "image"    : "/images/posts/16/head.png"
+    } ,
+  
+    {
       "title"    : "엑셀 피벗테이블은 무엇이고, 어떨 때 쓰는 기능일까?",
       "category" : "",
       "tags"     : "엑셀, 엑셀기초, 피벗테이블, and 피벗테이블수식",

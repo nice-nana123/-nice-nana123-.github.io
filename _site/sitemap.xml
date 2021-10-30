@@ -2,7 +2,23 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>http://localhost:4000/excel_pivot_table/</loc>
+      <loc>https://nice-nana.com/attribution_model/</loc>
+      
+        <lastmod>2021-10-30T22:00:00+09:00</lastmod>
+      
+
+      
+        <changefreq>weekly</changefreq>
+      
+
+      
+          <priority>0.5</priority>
+      
+
+    </url>
+  
+    <url>
+      <loc>https://nice-nana.com/excel_pivot_table/</loc>
       
         <lastmod>2021-08-01T00:21:00+09:00</lastmod>
       
@@ -18,7 +34,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/importance_of_langingpage/</loc>
+      <loc>https://nice-nana.com/importance_of_langingpage/</loc>
       
         <lastmod>2021-07-18T00:00:00+09:00</lastmod>
       
@@ -34,7 +50,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ads_scripts_report/</loc>
+      <loc>https://nice-nana.com/ads_scripts_report/</loc>
       
         <lastmod>2021-04-24T15:00:00+09:00</lastmod>
       
@@ -50,7 +66,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/ads_scripts/</loc>
+      <loc>https://nice-nana.com/ads_scripts/</loc>
       
         <lastmod>2021-04-21T20:00:00+09:00</lastmod>
       
@@ -66,7 +82,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/excel_data_load/</loc>
+      <loc>https://nice-nana.com/excel_data_load/</loc>
       
         <lastmod>2021-04-10T23:50:00+09:00</lastmod>
       
@@ -82,7 +98,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/shopping_ad/</loc>
+      <loc>https://nice-nana.com/shopping_ad/</loc>
       
         <lastmod>2021-03-28T08:00:00+09:00</lastmod>
       
@@ -98,7 +114,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/sem_opt/</loc>
+      <loc>https://nice-nana.com/sem_opt/</loc>
       
         <lastmod>2020-12-03T23:00:00+09:00</lastmod>
       
@@ -114,7 +130,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/da_basic/</loc>
+      <loc>https://nice-nana.com/da_basic/</loc>
       
         <lastmod>2020-11-22T11:00:00+09:00</lastmod>
       
@@ -130,7 +146,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/sem_basic/</loc>
+      <loc>https://nice-nana.com/sem_basic/</loc>
       
         <lastmod>2020-11-04T11:00:00+09:00</lastmod>
       
@@ -146,7 +162,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/question/</loc>
+      <loc>https://nice-nana.com/question/</loc>
       
         <lastmod>2020-10-10T22:58:00+09:00</lastmod>
       
@@ -162,7 +178,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/excel_num_error/</loc>
+      <loc>https://nice-nana.com/excel_num_error/</loc>
       
         <lastmod>2020-10-05T12:00:00+09:00</lastmod>
       
@@ -178,7 +194,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/why_excel/</loc>
+      <loc>https://nice-nana.com/why_excel/</loc>
       
         <lastmod>2020-09-27T00:14:00+09:00</lastmod>
       
@@ -194,7 +210,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/digitalad_start/</loc>
+      <loc>https://nice-nana.com/digitalad_start/</loc>
       
         <lastmod>2020-09-23T16:50:00+09:00</lastmod>
       
@@ -210,7 +226,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/biz_mail/</loc>
+      <loc>https://nice-nana.com/biz_mail/</loc>
       
         <lastmod>2020-09-06T14:59:00+09:00</lastmod>
       
@@ -226,7 +242,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/introduction/</loc>
+      <loc>https://nice-nana.com/introduction/</loc>
       
         <lastmod>2020-09-05T11:06:00+09:00</lastmod>
       
